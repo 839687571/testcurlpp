@@ -1,0 +1,9 @@
+/Debug
+*.opensdf
+*.sdf
+*.user
+*.suo
+*.ilk
+*.pdb
+curlCpp.exe
+/comdef.h
