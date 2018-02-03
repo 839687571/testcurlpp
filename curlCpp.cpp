@@ -176,8 +176,8 @@ int main(int, char **){
 	}
 	m_stop = true;
 
-	consumer_t.join();
-	produce_t.join();
+	if (consumer_t.joinable()) consumer_t.join();
+	if (produce_t.joinable()) produce_t.join();
 }
 
 #endif
